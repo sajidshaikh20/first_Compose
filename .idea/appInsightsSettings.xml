@@ -9,8 +9,8 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.example.firstcompose" />
-                  <option name="mobileSdkAppId" value="1:560940469780:android:12568c8eab0722da02a101" />
+                  <option name="appId" value="com.app.okacleaner" />
+                  <option name="mobileSdkAppId" value="1:560940469780:android:505b1eddec56966202a101" />
                   <option name="projectId" value="firstcompose-fa703" />
                   <option name="projectNumber" value="560940469780" />
                 </ConnectionSetting>

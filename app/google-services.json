@@ -7,9 +7,47 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:560940469780:android:12568c8eab0722da02a101",
+        "mobilesdk_app_id": "1:560940469780:android:505b1eddec56966202a101",
         "android_client_info": {
-          "package_name": "com.example.firstcompose"
+          "package_name": "com.app.okacleaner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30Bf0pspsYeP9gDB25c13ohLMHKHpcmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560940469780:android:db9a4f8fd793cec402a101",
+        "android_client_info": {
+          "package_name": "com.app.okacleaner.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30Bf0pspsYeP9gDB25c13ohLMHKHpcmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560940469780:android:3a213efcfda06b5502a101",
+        "android_client_info": {
+          "package_name": "com.app.okacleaner.stage"
         }
       },
       "oauth_client": [],

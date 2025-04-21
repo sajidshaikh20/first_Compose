@@ -7,7 +7,6 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.google.gms.google.services)
     alias(libs.plugins.google.firebase.crashlytics)
-
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
 
@@ -15,11 +14,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.firstcompose"
+    namespace = "com.app.okacleaner"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.firstcompose"
+        applicationId = "com.app.okacleaner"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -37,8 +36,7 @@ android {
             signingConfig = signingConfigs.getByName("debug")
         }
         debug {
-          //  applicationIdSuffix = ".debug"
-           // versionNameSuffix = "-debug"
+            applicationIdSuffix = ".debug"
         }
     }
 
@@ -46,9 +44,9 @@ android {
     productFlavors {
         create("dev") {
             dimension = "env"
-        //    applicationIdSuffix = ".dev"
-          //  versionNameSuffix = "-dev"
-            resValue("string", "app_name", "first Compose dev")
+            applicationIdSuffix = ".dev"
+
+
 
 
             val appPropertiesFile = rootProject.file("app/src/main/dev/app.properties")
@@ -74,9 +72,8 @@ android {
 
         create("stage") {
             dimension = "env"
-           // applicationIdSuffix = ".stage"
-            //versionNameSuffix = "-stage"
-            resValue("string", "app_name", "first Compose stage")
+            applicationIdSuffix = ".stage"
+
 
             val appPropertiesFile = rootProject.file("app/src/main/stage/app.properties")
             val appstoreProperties = Properties()
@@ -101,7 +98,7 @@ android {
 
         create("prod") {
             dimension = "env"
-            resValue("string", "app_name", "first Compose")
+            
 
             val appPropertiesFile = rootProject.file("app/src/main/release/app.properties")
 

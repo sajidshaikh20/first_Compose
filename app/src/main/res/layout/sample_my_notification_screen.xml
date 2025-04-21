@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.firstcompose.ui.theme.ui.theme.MyNotificationScreen
+    <com.app.okacleaner.ui.theme.ui.theme.MyNotificationScreen
         style="@style/Widget.Theme.FirstCompose.MyView"
         android:layout_width="300dp"
         android:layout_height="300dp"

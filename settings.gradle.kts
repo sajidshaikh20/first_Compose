@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "first Compose"
+rootProject.name = "oka cleaner"
 include(":app")
